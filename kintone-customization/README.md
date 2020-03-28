@@ -1,5 +1,17 @@
 # Kintone customization
 
+- [Kintone customization](#kintone-customization)
+  - [Summary](#summary)
+  - [Using this definition with an existing folder](#using-this-definition-with-an-existing-folder)
+  - [How it works](#how-it-works)
+    - [DevServer](#devserver)
+    - [Example NPM packages I choose here for root level](#example-npm-packages-i-choose-here-for-root-level)
+    - [Sample project folders](#sample-project-folders)
+      - [Sample project folder for ES5: `sample-project-es5`](#sample-project-folder-for-es5-sample-project-es5)
+      - [Sample project folder for ES6: `sample-project-es6`](#sample-project-folder-for-es6-sample-project-es6)
+      - [Sample project folder for TypeScript: `sample-project-ts`](#sample-project-folder-for-typescript-sample-project-ts)
+  - [License](#license)
+
 ## Summary
 
 *Develop Kintone JavaScript customization, Kintone Plug-ins, Node.js applications in Node.js and Python. Includes Node.js 12, eslint, Python 3.7, and related extensions and dependencies.*
