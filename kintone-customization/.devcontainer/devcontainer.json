@@ -1,0 +1,53 @@
+{
+	// Ref: https://github.com/microsoft/vscode-dev-containers/tree/master/container-templates/dockerfile
+	// Ref: https://github.com/microsoft/vscode-remote-try-python/blob/master/.devcontainer/devcontainer.json
+	"name": "Kintone customization",
+	"dockerFile": "Dockerfile",
+	"runArgs": [
+		//"--env-file devcontainer.env", // TODO: https://github.com/microsoft/vscode-remote-release/issues/222
+		"--cap-add=SYS_ADMIN"
+	],
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/zsh",
+		"python.pythonPath": "/usr/bin/python3.7",
+		"python.linting.enabled": true,
+		"python.linting.pylintEnabled": true,
+		"python.linting.pylintPath": "/usr/local/bin/pylint"
+	},
+	"appPort": [
+		8443,
+		8080,
+		443,
+		80,
+		5500
+	],
+	//"postCreateCommand": "bash .devcontainer/scripts/install-dev-tools.sh",
+	"postCreateCommand": "sh -c \"$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)\" && sh .devcontainer/scripts/install-dev-tools.sh",
+	"remoteUser": "developer",
+	"extensions": [
+		"dbaeumer.vscode-eslint",
+		"ms-python.python",
+		"dongli.python-preview",
+		"VisualStudioExptTeam.vscodeintellicode",
+		"ritwickdey.LiveServer",
+		"donjayamanne.githistory",
+		"eamodio.gitlens",
+		"esbenp.prettier-vscode",
+		"KnisterPeter.vscode-github",
+		"atian25.copy-syntax",
+		"christian-kohler.path-intellisense",
+		"CoenraadS.bracket-pair-colorizer",
+		"streetsidesoftware.code-spell-checker",
+		"wayou.vscode-todo-highlight",
+		"mutantdino.resourcemonitor",
+		//"amazonwebservices.aws-toolkit-vscode",
+		//"msjsdiag.debugger-for-chrome",
+		//"firefox-devtools.vscode-firefox-debug",
+		//"GrapeCity.gc-excelviewer",
+		//"humao.rest-client",
+		//"octref.vetur",
+		//"ms-vscode.Go",
+		//"ms-vsliveshare.vsliveshare",
+		//"yzhang.markdown-all-in-one"
+	]
+}
