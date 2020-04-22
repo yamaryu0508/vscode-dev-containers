@@ -1,5 +1,6 @@
 # Ref: https://github.com/microsoft/vscode-remote-try-python/blob/master/.devcontainer/Dockerfile
-FROM amazonlinux:2
+#      https://github.com/aws/aws-cli/blob/v2/docker/Dockerfile
+FROM amazon/aws-cli
 
 ARG USERNAME=developer
 ARG USER_UID=1000
@@ -9,7 +10,7 @@ ARG USER_GID=$USER_UID
 RUN yum update -y && yum install -y git tar ca-certificates util-linux-user procps zsh sudo gcc-c++ make
 
 # Install nodejs
-RUN curl -sL https://rpm.nodesource.com/setup_12.x | bash -
+RUN curl -sL https://rpm.nodesource.com/setup_14.x | bash -
 RUN yum install -y -q nodejs
 RUN curl -sL https://dl.yarnpkg.com/rpm/yarn.repo | sudo tee /etc/yum.repos.d/yarn.repo
 RUN yum -y install yarn
