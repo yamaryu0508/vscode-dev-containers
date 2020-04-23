@@ -14,7 +14,7 @@
 
 ## Summary
 
-*Develop Kintone JavaScript customization, Kintone Plug-ins, Node.js applications in Node.js and Python. Includes Node.js 12, eslint, Python 3.7, and related extensions and dependencies.*
+*Develop Kintone JavaScript customization, Kintone Plug-ins, Node.js applications in Node.js and Python. Includes Node.js 14, ESLint, Python 3.7, and related extensions and dependencies.*
 
 | Metadata | Value |
 |----------|-------|
@@ -78,7 +78,7 @@ So we can access the JavaScript files while avoiding verification errors if we i
   - ex) `/Users/yamaryu0508/vscode-dev-containers/kintone-customization/.devcontainer/devserver/mkcert-v1.4.1-darwin-amd64 -install`
 
 ### Example NPM packages I choose here for root level
-They allow us to handle `ES6`, `TypeScript`, `ESLint`.
+They allow us to handle `ES6+`, `TypeScript`, `ESLint`.
 
 ```:json
 {
