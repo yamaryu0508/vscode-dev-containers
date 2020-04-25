@@ -7,3 +7,4 @@ Some sample container definitions are provided here.
 | Container Definition | Note |
 |----------|-------|
 | [Kintone customization](https://github.com/yamaryu0508/vscode-dev-containers/tree/master/kintone-customization) | It can be used for [Kintone](https://developer.kintone.io/hc/en-us) customization development |
+| [TensorFlow](https://github.com/yamaryu0508/vscode-dev-containers/tree/master/tensorflow) | It can be used for machine learning application development with [TensorFlow](https://www.tensorflow.org/) |

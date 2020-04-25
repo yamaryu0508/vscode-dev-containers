@@ -1,0 +1,41 @@
+{
+	// Ref: https://github.com/microsoft/vscode-dev-containers/tree/master/container-templates/dockerfile
+	// Ref: https://github.com/microsoft/vscode-remote-try-python/blob/master/.devcontainer/devcontainer.json
+	"name": "Tensorflow development",
+	"dockerFile": "Dockerfile",
+	"runArgs": [
+	],
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash",
+		"python.pythonPath": "/usr/local/bin/python",
+		"python.linting.enabled": true,
+		"python.linting.pylintEnabled": true,
+		"python.linting.pylintPath": "/usr/local/bin/pylint"
+	},
+	"appPort": [
+		8443,
+		8080,
+		443,
+		80
+	],
+	"postCreateCommand": "bash .devcontainer/scripts/install-dev-tools.sh",
+	"remoteUser": "developer",
+	"extensions": [
+		"dbaeumer.vscode-eslint",
+		"ms-python.python",
+		"dongli.python-preview",
+		"ms-vsliveshare.vsliveshare",
+		"VisualStudioExptTeam.vscodeintellicode",
+		"ritwickdey.LiveServer",
+		"donjayamanne.githistory",
+		"eamodio.gitlens",
+		"esbenp.prettier-vscode",
+		"KnisterPeter.vscode-github",
+		"atian25.copy-syntax",
+		"christian-kohler.path-intellisense",
+		"CoenraadS.bracket-pair-colorizer",
+		"streetsidesoftware.code-spell-checker",
+		"wayou.vscode-todo-highlight",
+		"mutantdino.resourcemonitor"
+	]
+}
