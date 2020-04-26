@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Real-time Object Detection with TensorFlow.js</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <link>
+  <style>
+    body {
+      font-family: 'Raleway', sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Real-time Object Detection with TensorFlow.js</h1>
+  <span id="loading">loading...</span>
+  <div>
+    <video autoPlay muted id="video" width="720" height="600" style="position: fixed; top: 150; left: 150;" ></video>
+    <canvas id="canvas" width="720" height="650" style="position: fixed; top: 150; left: 150;" ></canvas>
+  </div>
+</body>
+
+<script src="index.js"></script>
+
+</html>

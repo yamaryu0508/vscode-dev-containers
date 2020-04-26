@@ -9,6 +9,7 @@
     - [Example NPM packages I choose here for root level](#example-npm-packages-i-choose-here-for-root-level)
     - [Sample project folders](#sample-project-folders)
       - [TensorFlow tutorials in Jupyter Notebook: `tensorflow-tutorials-jupyter`](#tensorflow-tutorials-in-jupyter-notebook-tensorflow-tutorials-jupyter)
+      - [Real-time Object Detection with TensorFlow.js: `sample-app-es6`](#real-time-object-detection-with-tensorflowjs-sample-app-es6)
   - [License](#license)
 
 ## Summary
@@ -87,6 +88,22 @@ They allow us to handle `ES6+`.
 They are originally included in Docker image `tensorflow/tensorflow:nightly-gpu-py3-jupyter`.
 
 <img src="./images/tensorflow-tutorial.jpg" width="100%">
+
+#### Real-time Object Detection with TensorFlow.js: `sample-app-es6`
+```:shell
+sample-app-es6
+├── public
+│   └── index.html
+├── src
+│   └── index.js
+└── webpack.config.js
+```
+
+Use [`webpack-dev-server`](https://webpack.js.org/configuration/dev-server/) when you start developing this sample app.
+
+```:shell
+$(npm bin)/webpack-dev-server --watch
+```
 
 ## License
 
