@@ -105,7 +105,7 @@ Use [`webpack-dev-server`](https://webpack.js.org/configuration/dev-server/) whe
 $(npm bin)/webpack-dev-server --watch
 ```
 
-<img src="./images/real-time-object-detection.jpg" width="50%">
+<img src="./images/real-time-object-detection-tfjs.gif" width="50%">
 
 ## License
 
