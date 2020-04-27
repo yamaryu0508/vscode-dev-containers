@@ -1,7 +1,10 @@
+import 'core-js/stable';
+import 'regenerator-runtime/runtime';
+
 (() => {
 
-  const videoElement = document.querySelector('#video');
-  const canvasElement = document.querySelector('#canvas');
+  const VIDEO_ELEMENT = document.querySelector('#video');
+  const CANVAS_ELEMENT = document.querySelector('#canvas');
 
   const initializeCameraAndModel = () => {
     if (navigator.mediaDevices.getUserMedia || navigator.mediaDevices.webkitGetUserMedia) {
@@ -11,11 +14,10 @@
           audio: false,
         })
         .then(stream => {
-          window.stream = stream;
-          videoElement.srcObject = stream;
+          VIDEO_ELEMENT.srcObject = stream;
   
           return new Promise(resolve => {
-            videoElement.onloadedmetadata = () => {
+            VIDEO_ELEMENT.onloadedmetadata = () => {
               resolve();
             };
           });
@@ -28,11 +30,11 @@
   };
 
   const renderPredictions = predictions => {
-    const ctx = canvasElement.getContext("2d");
+    const ctx = CANVAS_ELEMENT.getContext('2d');
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
-    const font = "24px Raleway";
+    const font = '24px Raleway';
     ctx.font = font;
-    ctx.textBaseline = "top";
+    ctx.textBaseline = 'top';
 
     predictions.forEach(prediction => {
       const x = prediction.bbox[0];
@@ -40,11 +42,11 @@
       const width = prediction.bbox[2];
       const height = prediction.bbox[3];
       // Draw the bounding box.
-      ctx.strokeStyle = "#2fff00";
+      ctx.strokeStyle = '#2fff00';
       ctx.lineWidth = 1;
       ctx.strokeRect(x, y, width, height);
       // Draw the label background.
-      ctx.fillStyle = "#2fff00";
+      ctx.fillStyle = '#2fff00';
       const textWidth = ctx.measureText(prediction.class).width;
       const textHeight = parseInt(font, 10);
       // draw top left rectangle
@@ -53,14 +55,14 @@
       ctx.fillRect(x, y + height - textHeight, textWidth + 15, textHeight + 10);
 
       // Draw the text last to ensure it's on top.
-      ctx.fillStyle = "#000000";
+      ctx.fillStyle = '#000000';
       ctx.fillText(prediction.class, x, y);
       ctx.fillText(`${prediction.score.toFixed(2) * 100}%`, x, y + height - textHeight);
     });
   };
 
   const detectFromVideo = (model) => {
-    return model.detect(video).then(predictions => {
+    return model.detect(VIDEO_ELEMENT).then(predictions => {
       renderPredictions(predictions);
       requestAnimationFrame(() => {
         detectFromVideo(model);
@@ -69,8 +71,10 @@
   };
 
   initializeCameraAndModel().then(model => {
-    document.querySelector("span#loading").style.display = 'none';
+    document.querySelector('span#loading').style.display = 'none';
     detectFromVideo(model);
+  }).catch(() => {
+    console.log('Error occurred.');
   });
 
 })();
