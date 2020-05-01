@@ -30,5 +30,15 @@ if [ ! -e $MKCERT_DIR ]; then
   cd ../../../
 fi
 
+# Run devserver
+python .devcontainer/devserver/server.py &
+
 # Install packages
 yarn install
+
+# Copy uninstall-dev-tools.sh to work directory
+cp .devcontainer/scripts/uninstall-dev-tools.sh ./.uninstall-dev-tools.sh
+cp .devcontainer/scripts/run-devserver.sh ./run-devserver.sh
+
+# Copy favicon.ico to work directory
+cp .devcontainer/devserver/favicon.ico ./favicon.ico
