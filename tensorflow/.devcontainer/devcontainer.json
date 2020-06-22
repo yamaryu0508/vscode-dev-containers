@@ -1,7 +1,7 @@
 {
 	// Ref: https://github.com/microsoft/vscode-dev-containers/tree/master/container-templates/dockerfile
 	// Ref: https://github.com/microsoft/vscode-remote-try-python/blob/master/.devcontainer/devcontainer.json
-	"name": "Tensorflow development",
+	"name": "TensorFlow development",
 	"dockerFile": "Dockerfile",
 	"runArgs": [
 	],
