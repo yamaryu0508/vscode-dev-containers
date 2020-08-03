@@ -18,7 +18,7 @@
     "@kintone/plugin-packer": "3.0.5",
     "@kintone/plugin-uploader": "4.1.1",
     "@kintone/webpack-plugin-kintone-plugin": "4.0.4",
-    "@typescript-eslint/eslint-plugin": "3.7.1",
+    "@typescript-eslint/eslint-plugin": "3.8.0",
     "babel-loader": "8.1.0",
     "css-loader": "4.2.0",
     "eslint": "7.5.0",
