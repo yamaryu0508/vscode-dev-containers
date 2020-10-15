@@ -893,16 +893,16 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@kintone/dts-gen@3.0.5":
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/@kintone/dts-gen/-/dts-gen-3.0.5.tgz#c87805321d2f06f723bc363ef11504f09b913847"
-  integrity sha512-6gZIF7Z2Xw7gONugvSO5PqCnIIQlGRgsc0WcS2uEdoK7oH1C8VvfIFd2hyExtAyYI9a5QeAYX1Ro+L9vgF4bLw==
+"@kintone/dts-gen@3.0.6":
+  version "3.0.6"
+  resolved "https://registry.yarnpkg.com/@kintone/dts-gen/-/dts-gen-3.0.6.tgz#bc939abeb8baabb49cd77351f6c5195a5c1b36a3"
+  integrity sha512-dALkEQK876UV23l1Hxas8cBPcE2rnGIL7evtDOPGJt64MPQXuVgHB8xZMM2bF3HEhBTg1cdKL6Gol/TgQ1i21w==
   dependencies:
     axios "^0.19.2"
     commander "^5.1.0"
     form-data "^3.0.0"
-    lodash "^4.17.15"
-    prettier "^2.0.5"
+    lodash "^4.17.20"
+    prettier "^2.1.2"
 
 "@nodelib/fs.scandir@2.1.3":
   version "2.1.3"
@@ -3585,7 +3585,7 @@ locate-path@^3.0.0:
     p-locate "^3.0.0"
     path-exists "^3.0.0"
 
-lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19:
+lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20:
   version "4.17.20"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
   integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
@@ -4280,7 +4280,7 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@2.1.2, prettier@^2.0.5:
+prettier@2.1.2, prettier@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.1.2.tgz#3050700dae2e4c8b67c4c3f666cdb8af405e1ce5"
   integrity sha512-16c7K+x4qVlJg9rEbXl7HEGmQyZlG4R9AgP+oHKRMsMsuk8s+ATStlf1NpDqyBI1HpVyfjLOeMhH2LvuNvV5Vg==
