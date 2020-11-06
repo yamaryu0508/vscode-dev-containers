@@ -952,13 +952,13 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@kintone/dts-gen@3.0.6":
-  version "3.0.6"
-  resolved "https://registry.yarnpkg.com/@kintone/dts-gen/-/dts-gen-3.0.6.tgz#bc939abeb8baabb49cd77351f6c5195a5c1b36a3"
-  integrity sha512-dALkEQK876UV23l1Hxas8cBPcE2rnGIL7evtDOPGJt64MPQXuVgHB8xZMM2bF3HEhBTg1cdKL6Gol/TgQ1i21w==
+"@kintone/dts-gen@3.0.8":
+  version "3.0.8"
+  resolved "https://registry.yarnpkg.com/@kintone/dts-gen/-/dts-gen-3.0.8.tgz#e7e4343697d391d050c1cdbabc16ec4dfce0fd1f"
+  integrity sha512-ZPej3rOwi0bIAax/nvP8fycup4UX2Qc3SCqXFRvOBVsPnDbo29H6AJme4b0hUbrRn+TmPqC5o3abCFiJmECLuQ==
   dependencies:
     axios "^0.19.2"
-    commander "^5.1.0"
+    commander "^6.1.0"
     form-data "^3.0.0"
     lodash "^4.17.20"
     prettier "^2.1.2"
@@ -1660,12 +1660,7 @@ commander@^2.20.0:
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
   integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
 
-commander@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-5.1.0.tgz#46abbd1652f8e059bddaef99bbdcb2ad9cf179ae"
-  integrity sha512-P0CysNDQ7rtVw4QIQtm+MRxV66vKFSvlsQvGYXZWR3qFU0jlMKHZZZgw8e+8DSah4UDKMqnknRDQz+xuQXQ/Zg==
-
-commander@^6.2.0:
+commander@^6.1.0, commander@^6.2.0:
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-6.2.0.tgz#b990bfb8ac030aedc6d11bc04d1488ffef56db75"
   integrity sha512-zP4jEKbe8SHzKJYQmq8Y9gYjtO/POJLgIdKgV7B9qNmABVFVc+ctqSX6iXh4mCpJfRBOabiZ2YKPg8ciDw6C+Q==
