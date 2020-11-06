@@ -22,7 +22,7 @@
     "@babel/preset-typescript": "7.12.1",
     "@cybozu/eslint-config": "11.0.1",
     "@kintone/dts-gen": "3.0.6",
-    "@typescript-eslint/eslint-plugin": "4.4.1",
+    "@typescript-eslint/eslint-plugin": "4.6.1",
     "babel-loader": "8.1.0",
     "core-js": "3.6.5",
     "eslint": "7.11.0",
