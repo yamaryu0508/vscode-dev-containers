@@ -9,13 +9,13 @@
     "lint": "eslint src"
   },
   "devDependencies": {
-    "@babel/core": "7.12.3",
-    "@babel/preset-env": "7.12.1",
+    "@babel/core": "7.12.9",
+    "@babel/preset-env": "7.12.7",
     "@cybozu/eslint-config": "11.0.3",
     "@kintone/webpack-plugin-kintone-plugin": "4.0.7",
     "@kintone/plugin-packer": "3.0.8",
     "@kintone/plugin-uploader": "4.1.2",
-    "babel-loader": "8.1.0",
+    "babel-loader": "8.2.2",
     "eslint": "7.14.0",
     "css-loader": "5.0.1",
     "file-loader": "6.2.0",
