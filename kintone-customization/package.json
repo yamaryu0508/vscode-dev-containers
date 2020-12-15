@@ -24,7 +24,7 @@
     "@kintone/dts-gen": "3.0.8",
     "@typescript-eslint/eslint-plugin": "4.9.0",
     "babel-loader": "8.2.2",
-    "core-js": "3.8.0",
+    "core-js": "3.8.1",
     "eslint": "7.15.0",
     "css-loader": "5.0.1",
     "eslint-config-prettier": "7.0.0",
