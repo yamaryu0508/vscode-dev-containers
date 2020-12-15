@@ -20,7 +20,7 @@
     "@kintone/plugin-uploader": "4.1.2",
     "@typescript-eslint/eslint-plugin": "4.9.0",
     "babel-loader": "8.2.2",
-    "eslint": "7.14.0",
+    "eslint": "7.15.0",
     "css-loader": "5.0.1",
     "eslint-config-prettier": "6.15.0",
     "eslint-plugin-prettier": "3.2.0",
