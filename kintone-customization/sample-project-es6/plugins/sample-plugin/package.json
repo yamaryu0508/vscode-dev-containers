@@ -12,7 +12,7 @@
     "@babel/core": "7.12.10",
     "@babel/preset-env": "7.12.11",
     "@cybozu/eslint-config": "11.0.3",
-    "@kintone/webpack-plugin-kintone-plugin": "4.0.7",
+    "@kintone/webpack-plugin-kintone-plugin": "4.0.8",
     "@kintone/plugin-packer": "3.0.9",
     "@kintone/plugin-uploader": "4.2.0",
     "babel-loader": "8.2.2",
