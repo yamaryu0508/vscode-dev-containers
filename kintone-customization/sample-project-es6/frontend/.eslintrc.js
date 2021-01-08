@@ -3,7 +3,6 @@ module.exports = {
     '@cybozu',
     '@cybozu/eslint-config/globals/kintone'
   ],
-  rules: {
-    indent: ["error", 2]
-  }
+  rules: {},
+  root: true
 };
