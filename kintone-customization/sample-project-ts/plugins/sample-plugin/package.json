@@ -16,7 +16,7 @@
     "@cybozu/eslint-config": "11.0.3",
     "@kintone/webpack-plugin-kintone-plugin": "4.0.11",
     "@kintone/dts-gen": "3.1.2",
-    "@kintone/plugin-packer": "3.0.12",
+    "@kintone/plugin-packer": "3.0.15",
     "@kintone/plugin-uploader": "4.2.2",
     "@typescript-eslint/eslint-plugin": "4.20.0",
     "babel-loader": "8.2.2",
