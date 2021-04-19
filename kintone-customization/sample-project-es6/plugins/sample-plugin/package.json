@@ -11,7 +11,7 @@
   "devDependencies": {
     "@babel/core": "7.13.15",
     "@babel/preset-env": "7.13.15",
-    "@cybozu/eslint-config": "11.0.4",
+    "@cybozu/eslint-config": "12.0.2",
     "@kintone/webpack-plugin-kintone-plugin": "4.0.11",
     "@kintone/plugin-packer": "3.0.15",
     "@kintone/plugin-uploader": "4.2.2",
