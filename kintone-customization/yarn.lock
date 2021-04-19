@@ -1133,15 +1133,15 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@kintone/dts-gen@3.1.2":
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/@kintone/dts-gen/-/dts-gen-3.1.2.tgz#2b8c8f14573266a3369e41dc535fb809e2f68cad"
-  integrity sha512-0dZ0OsVJjdlLrMFZRKGSKeNzPW74z0FylnVjZ9c4zlfpHn2KjeONq+VoZkuzp0dkI63Tp07P1d1EmwRMpsSugg==
+"@kintone/dts-gen@3.1.10":
+  version "3.1.10"
+  resolved "https://registry.yarnpkg.com/@kintone/dts-gen/-/dts-gen-3.1.10.tgz#f20768beea699f9ff01c48635f50103a4c88f7d6"
+  integrity sha512-6jZtNpPU5rD9j+RKTdPbRXwnuRcxA6iBU2Mrrz3TpzAmTBFlFP7y+spFcbChx0GSySmOzIgCzE7iITwCitifrA==
   dependencies:
     axios "^0.21.0"
-    commander "^7.0.0"
-    form-data "^3.0.0"
-    lodash "^4.17.20"
+    commander "^7.2.0"
+    form-data "^4.0.0"
+    lodash "^4.17.21"
     prettier "^2.2.1"
 
 "@nodelib/fs.scandir@2.1.3":
@@ -1905,6 +1905,11 @@ commander@^7.0.0:
   resolved "https://registry.yarnpkg.com/commander/-/commander-7.0.0.tgz#3e2bbfd8bb6724760980988fb5b22b7ee6b71ab2"
   integrity sha512-ovx/7NkTrnPuIV8sqk/GjUIIM1+iUQeqA3ye2VNpq9sVoiZsooObWlQy+OPWGI17GDaEoybuAGJm6U8yC077BA==
 
+commander@^7.2.0:
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-7.2.0.tgz#a36cb57d0b501ce108e4d20559a150a391d97ab7"
+  integrity sha512-QrWXB+ZQSVPmIWIhtEO9H+gwHaMGYiF5ChvoJ+K9ZGHG/sVsa6yiesAD1GC/x46sET00Xlwo1u49RVVVzvcSkw==
+
 commondir@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/commondir/-/commondir-1.0.1.tgz#ddd800da0c66127393cca5950ea968a3aaf1253b"
@@ -2582,10 +2587,10 @@ fork-ts-checker-webpack-plugin@6.1.0:
     semver "^7.3.2"
     tapable "^1.0.0"
 
-form-data@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/form-data/-/form-data-3.0.0.tgz#31b7e39c85f1355b7139ee0c647cf0de7f83c682"
-  integrity sha512-CKMFDglpbMi6PyN+brwB9Q/GOw0eAnsrEZDgcsH5Krhz5Od/haKHAX0NmQfha2zPPz0JpWzA7GJHGSnvCRLWsg==
+form-data@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/form-data/-/form-data-4.0.0.tgz#93919daeaf361ee529584b9b31664dc12c9fa452"
+  integrity sha512-ETEklSGi5t0QMZuiXoA/Q6vcnxcLQP5vdugSpuAyi6SVGi2clPPp+xgEhuMaHC+zGgn31Kd235W35f7Hykkaww==
   dependencies:
     asynckit "^0.4.0"
     combined-stream "^1.0.8"
