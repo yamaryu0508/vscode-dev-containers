@@ -1133,10 +1133,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@kintone/dts-gen@3.1.10":
-  version "3.1.10"
-  resolved "https://registry.yarnpkg.com/@kintone/dts-gen/-/dts-gen-3.1.10.tgz#f20768beea699f9ff01c48635f50103a4c88f7d6"
-  integrity sha512-6jZtNpPU5rD9j+RKTdPbRXwnuRcxA6iBU2Mrrz3TpzAmTBFlFP7y+spFcbChx0GSySmOzIgCzE7iITwCitifrA==
+"@kintone/dts-gen@3.1.11":
+  version "3.1.11"
+  resolved "https://registry.yarnpkg.com/@kintone/dts-gen/-/dts-gen-3.1.11.tgz#7a90e802a542d9f85d7c060fba44560654b201b3"
+  integrity sha512-3cMBvVCUfieaF/TPd6n9AiUBcJSvNwCC0yXU4ggcA2vh4N/3KSUA1WlSTS9EjNz099+vLgX/pRWUzSRObM73qw==
   dependencies:
     axios "^0.21.0"
     commander "^7.2.0"
