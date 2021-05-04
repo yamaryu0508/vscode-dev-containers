@@ -1128,16 +1128,15 @@
     "@babel/helper-validator-identifier" "^7.12.11"
     to-fast-properties "^2.0.0"
 
-"@cybozu/eslint-config@12.0.2":
-  version "12.0.2"
-  resolved "https://registry.yarnpkg.com/@cybozu/eslint-config/-/eslint-config-12.0.2.tgz#786d647410ddd1808a184c191cfbd9b7137df0f9"
-  integrity sha512-hRO7fisfaho5VGePq9IfjWmWNv/ZIh7R6VFhV01Gigwo988dA7GW/NqrJk+CdJ3o4AL6Jf0Zany5+26Sun6AKQ==
+"@cybozu/eslint-config@13.0.0":
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/@cybozu/eslint-config/-/eslint-config-13.0.0.tgz#b9909fb98d6739116d28dd2c2b181c55fcd59a66"
+  integrity sha512-71nBZ0AxIVdJHBmUqfQN+yrvkAuGJ9RvrY6jSZSZ8ZSFo1p+0lKiBnCtLyu8uQJIqZ1YarOYqxd3EdgtmHFO+Q==
   dependencies:
-    "@typescript-eslint/eslint-plugin" "^4.21.0"
-    "@typescript-eslint/parser" "^4.21.0"
+    "@typescript-eslint/eslint-plugin" "^4.22.0"
+    "@typescript-eslint/parser" "^4.22.0"
     babel-eslint "^10.1.0"
     eslint-config-prettier "^8.1.0"
-    eslint-plugin-flowtype "^5.4.0"
     eslint-plugin-import "^2.22.1"
     eslint-plugin-jsx-a11y "^6.4.1"
     eslint-plugin-node "^11.1.0"
@@ -1262,7 +1261,7 @@
     semver "^7.3.2"
     tsutils "^3.17.1"
 
-"@typescript-eslint/eslint-plugin@^4.21.0":
+"@typescript-eslint/eslint-plugin@^4.22.0":
   version "4.22.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-4.22.0.tgz#3d5f29bb59e61a9dba1513d491b059e536e16dbc"
   integrity sha512-U8SP9VOs275iDXaL08Ln1Fa/wLXfj5aTr/1c0t0j6CdbOnxh+TruXu1p4I0NAvdPBQgoPjHsgKn28mOi0FzfoA==
@@ -1300,7 +1299,7 @@
     eslint-scope "^5.0.0"
     eslint-utils "^2.0.0"
 
-"@typescript-eslint/parser@^4.21.0":
+"@typescript-eslint/parser@^4.22.0":
   version "4.22.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-4.22.0.tgz#e1637327fcf796c641fe55f73530e90b16ac8fe8"
   integrity sha512-z/bGdBJJZJN76nvAY9DkJANYgK3nlRstRRi74WHm3jjgf2I8AglrSY+6l7ogxOmn55YJ6oKZCLLy+6PW70z15Q==
@@ -2266,14 +2265,6 @@ eslint-plugin-es@^3.0.0:
   dependencies:
     eslint-utils "^2.0.0"
     regexpp "^3.0.0"
-
-eslint-plugin-flowtype@^5.4.0:
-  version "5.7.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-flowtype/-/eslint-plugin-flowtype-5.7.1.tgz#16b15d7a981bc0894284a87e71021f523b4fa580"
-  integrity sha512-RsurlNszyKLIHJvw6J4C98ubTTsLlgzL5xYqQ6ZTV5d2E2iHIR744SxoU3o7yQf0HjIe0GwnAIxpD+g0IV+emg==
-  dependencies:
-    lodash "^4.17.15"
-    string-natural-compare "^3.0.1"
 
 eslint-plugin-import@^2.22.1:
   version "2.22.1"
@@ -4055,11 +4046,6 @@ sprintf-js@~1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
   integrity sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=
-
-string-natural-compare@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/string-natural-compare/-/string-natural-compare-3.0.1.tgz#7a42d58474454963759e8e8b7ae63d71c1e7fdf4"
-  integrity sha512-n3sPwynL1nwKi3WJ6AIsClwBMa0zTi54fn2oLU6ndfTSIO05xaznjSf15PcBZU6FNWbmN5Q6cxT4V5hGvB4taw==
 
 string-width@^4.2.0:
   version "4.2.0"
