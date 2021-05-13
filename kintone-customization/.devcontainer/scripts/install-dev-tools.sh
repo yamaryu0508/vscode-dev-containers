@@ -44,5 +44,4 @@ cp .devcontainer/scripts/run-devserver.sh ./run-devserver.sh
 cp .devcontainer/devserver/favicon.ico ./favicon.ico
 
 # Install Oh My Zsh
-INSTALL_OHMYZSH="sh -c \"$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)\""
-echo $INSTALL_OHMYZSH
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
