@@ -22,8 +22,8 @@
 		80,
 		5500
 	],
-	//"postCreateCommand": "bash .devcontainer/scripts/install-dev-tools.sh",
-	"postCreateCommand": "sh -c \"$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)\" && sh .devcontainer/scripts/install-dev-tools.sh",
+	"postCreateCommand": "bash .devcontainer/scripts/install-dev-tools.sh",
+	// "postCreateCommand": "sh -c \"$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)\" && sh .devcontainer/scripts/install-dev-tools.sh",
 	"remoteUser": "developer",
 	"extensions": [
 		"dbaeumer.vscode-eslint",
