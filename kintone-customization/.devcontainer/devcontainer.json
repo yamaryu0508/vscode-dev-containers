@@ -30,7 +30,6 @@
 		"ms-python.python",
 		"dongli.python-preview",
 		"VisualStudioExptTeam.vscodeintellicode",
-		"ritwickdey.LiveServer",
 		"donjayamanne.githistory",
 		"eamodio.gitlens",
 		"esbenp.prettier-vscode",
@@ -44,14 +43,15 @@
 		"wix.vscode-import-cost",
 		"oderwat.indent-rainbow",
 		"pkief.material-icon-theme",
-		//"amazonwebservices.aws-toolkit-vscode",
-		//"msjsdiag.debugger-for-chrome",
-		//"firefox-devtools.vscode-firefox-debug",
-		//"GrapeCity.gc-excelviewer",
-		//"humao.rest-client",
-		//"octref.vetur",
-		//"ms-vscode.Go",
-		//"ms-vsliveshare.vsliveshare",
-		//"yzhang.markdown-all-in-one"
+		// "ritwickdey.LiveServer",
+		// "amazonwebservices.aws-toolkit-vscode",
+		// "msjsdiag.debugger-for-chrome",
+		// "firefox-devtools.vscode-firefox-debug",
+		// "GrapeCity.gc-excelviewer",
+		// "humao.rest-client",
+		// "octref.vetur",
+		// "ms-vscode.Go",
+		// "ms-vsliveshare.vsliveshare",
+		// "yzhang.markdown-all-in-one"
 	]
 }
