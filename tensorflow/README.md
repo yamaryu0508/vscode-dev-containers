@@ -102,7 +102,7 @@ sample-app-es6
 Use [`webpack-dev-server`](https://webpack.js.org/configuration/dev-server/) when you start developing this sample app.
 
 ```:shell
-$(npm bin)/webpack-dev-server --watch
+$(yarn bin)/webpack serve
 ```
 
 <img src="./images/real-time-object-detection-tfjs.gif" width="50%">
