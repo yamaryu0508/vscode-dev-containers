@@ -7,7 +7,7 @@ ARG USER_UID=1000
 ARG USER_GID=$USER_UID
 
 # Install packages
-RUN yum update -y && yum install -y git tar ca-certificates util-linux-user procps zsh sudo gcc-c++ make
+RUN yum update -y && yum install -y git tar ca-certificates util-linux-user procps bind-utils jq zsh sudo gcc-c++ make
 
 # Install nodejs
 RUN curl -sL https://rpm.nodesource.com/setup_lts.x | bash -
