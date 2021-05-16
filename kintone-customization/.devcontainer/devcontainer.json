@@ -4,11 +4,11 @@
 	"name": "Kintone customization",
 	"dockerFile": "Dockerfile",
 	"runArgs": [
-		//"--env-file devcontainer.env", // TODO: https://github.com/microsoft/vscode-remote-release/issues/222
+		"--env-file=${absolute path}/devcontainer.env", // TODO: https://github.com/microsoft/vscode-remote-release/issues/222
 		"--cap-add=SYS_ADMIN"
 	],
 	"settings": {
-    	"workbench.iconTheme": "material-icon-theme",
+    "workbench.iconTheme": "material-icon-theme",
 		"terminal.integrated.defaultProfile.linux": "/bin/zsh",
 		"python.pythonPath": "/usr/bin/python3.7",
 		"python.linting.enabled": true,
