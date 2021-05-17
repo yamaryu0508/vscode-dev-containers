@@ -9,7 +9,7 @@
     "lint": "eslint src"
   },
   "devDependencies": {
-    "@babel/core": "7.14.2",
+    "@babel/core": "7.14.3",
     "@babel/preset-env": "7.14.2",
     "@cybozu/eslint-config": "13.0.0",
     "@kintone/webpack-plugin-kintone-plugin": "5.0.0",
