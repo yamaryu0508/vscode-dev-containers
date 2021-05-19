@@ -14,7 +14,7 @@
     "@tensorflow/tfjs-vis": "^1.5.1"
   },
   "devDependencies": {
-    "@babel/core": "7.14.2",
+    "@babel/core": "7.14.3",
     "@babel/preset-env": "7.14.2",
     "babel-loader": "8.2.2",
     "core-js": "3.12.1",
