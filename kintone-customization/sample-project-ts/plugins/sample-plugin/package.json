@@ -18,7 +18,7 @@
     "@kintone/dts-gen": "4.1.0",
     "@kintone/plugin-packer": "5.0.1",
     "@kintone/plugin-uploader": "5.0.1",
-    "@typescript-eslint/eslint-plugin": "4.24.0",
+    "@typescript-eslint/eslint-plugin": "4.25.0",
     "babel-loader": "8.2.2",
     "eslint": "7.27.0",
     "css-loader": "5.2.6",
