@@ -9,10 +9,10 @@
     "lint": "eslint src"
   },
   "devDependencies": {
-    "@babel/core": "7.14.3",
-    "@babel/plugin-proposal-class-properties": "7.13.0",
-    "@babel/preset-env": "7.14.4",
-    "@babel/preset-typescript": "7.13.0",
+    "@babel/core": "7.14.6",
+    "@babel/plugin-proposal-class-properties": "7.14.5",
+    "@babel/preset-env": "7.14.7",
+    "@babel/preset-typescript": "7.14.5",
     "@cybozu/eslint-config": "14.0.0",
     "@kintone/webpack-plugin-kintone-plugin": "5.0.6",
     "@kintone/dts-gen": "4.2.4",
