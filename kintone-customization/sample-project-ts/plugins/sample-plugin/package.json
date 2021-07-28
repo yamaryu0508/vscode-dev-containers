@@ -14,7 +14,7 @@
     "@babel/preset-env": "7.14.8",
     "@babel/preset-typescript": "7.14.5",
     "@cybozu/eslint-config": "14.0.2",
-    "@kintone/webpack-plugin-kintone-plugin": "5.0.10",
+    "@kintone/webpack-plugin-kintone-plugin": "5.0.11",
     "@kintone/dts-gen": "4.2.9",
     "@kintone/plugin-packer": "5.0.11",
     "@kintone/plugin-uploader": "5.0.6",
