@@ -17,7 +17,7 @@
     "@babel/plugin-proposal-class-properties": "7.14.5",
     "@babel/preset-env": "7.14.7",
     "@babel/preset-typescript": "7.14.5",
-    "@cybozu/eslint-config": "14.0.1",
+    "@cybozu/eslint-config": "14.0.2",
     "@kintone/dts-gen": "4.2.8",
     "@typescript-eslint/eslint-plugin": "4.28.5",
     "babel-loader": "8.2.2",
