@@ -958,10 +958,10 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.0.tgz#87de7af9c231826fdd68ac7258f77c429e0e5fcf"
   integrity sha512-wdppn25U8z/2yiaT6YGquE6X8sSv7hNMWSXYSSU1jGv/yd6XqjXgTDJ8KP4NgjTXfJ3GbRjeeb8RTV7a/VpM+w==
 
-"@kintone/dts-gen@4.2.9":
-  version "4.2.9"
-  resolved "https://registry.yarnpkg.com/@kintone/dts-gen/-/dts-gen-4.2.9.tgz#ed75bd94b75bfe074d9c2a7abb38c4b123fdf0d7"
-  integrity sha512-FT2ayI20maqxUdByvnwdwQVHfqtsxsJa0ol+2/xAMX7IDnNYWMPuwDg2FTf6FIX0xW2jZZ0Gjk+bsVStPglK/A==
+"@kintone/dts-gen@4.2.11":
+  version "4.2.11"
+  resolved "https://registry.yarnpkg.com/@kintone/dts-gen/-/dts-gen-4.2.11.tgz#6dfe6f98097c1f792a01725a1b4807810e48ce45"
+  integrity sha512-h8erRG4o+uDr3TaiLi/aZmpJORgYHYXG3fft9zxURUQxo5Myh54mAs/XQ7np9ciS41aBOSB21slPuISfGzB+LA==
   dependencies:
     axios "^0.21.0"
     commander "^7.2.0"
