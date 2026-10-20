@@ -1683,10 +1683,15 @@ core-js-compat@^3.16.0, core-js-compat@^3.16.2:
     browserslist "^4.17.3"
     semver "7.0.0"
 
-core-js@3, core-js@3.18.2:
+core-js@3:
   version "3.18.2"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.18.2.tgz#63a551e8a29f305cd4123754846e65896619ba5b"
   integrity sha512-zNhPOUoSgoizoSQFdX1MeZO16ORRb9FFQLts8gSYbZU5FcgXhp24iMWMxnOQo5uIaIG7/6FA/IqJPwev1o9ZXQ==
+
+core-js@3.51.0:
+  version "3.51.0"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.51.0.tgz#9a7b197159ab83173b50efbe0c4846bec94b3abb"
+  integrity sha512-7bDKx/5jm5MxzsXxc93g6Z2+4ZsuT/MddrfRmTDJNAkWsYWHU8EVNEsBiIEWnMAMCHMmRfUEjkuo3jeNBOIHRw==
 
 core-js@^1.0.0:
   version "1.2.7"
